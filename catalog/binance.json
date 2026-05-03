@@ -1,0 +1,19 @@
+﻿{
+    "mcpServers":  {
+                       "binance":  {
+                                       "name":  "Binance",
+                                       "description":  "Trade and monitor crypto markets on Binance.",
+                                       "command":  "npx",
+                                       "args":  [
+                                                    "-y",
+                                                    "binance-mcp"
+                                                ],
+                                       "envKeys":  [
+                                                       "BINANCE_API_KEY",
+                                                       "BINANCE_API_SECRET"
+                                                   ],
+                                       "logo":  "binance.png",
+                                       "category":  "Finance"
+                                   }
+                   }
+}

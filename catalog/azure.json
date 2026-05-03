@@ -1,0 +1,21 @@
+﻿{
+    "mcpServers":  {
+                       "azure":  {
+                                     "name":  "Azure",
+                                     "description":  "Manage Azure resources â€” VMs, Storage, Functions and more.",
+                                     "command":  "npx",
+                                     "args":  [
+                                                  "-y",
+                                                  "azure-mcp"
+                                              ],
+                                     "envKeys":  [
+                                                     "AZURE_TENANT_ID",
+                                                     "AZURE_CLIENT_ID",
+                                                     "AZURE_CLIENT_SECRET",
+                                                     "AZURE_SUBSCRIPTION_ID"
+                                                 ],
+                                     "logo":  "azure.png",
+                                     "category":  "Cloud \u0026 DevOps"
+                                 }
+                   }
+}

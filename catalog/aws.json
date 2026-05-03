@@ -1,0 +1,20 @@
+﻿{
+    "mcpServers":  {
+                       "aws":  {
+                                   "name":  "AWS",
+                                   "description":  "Manage S3 buckets, Lambda functions, EC2 instances and more.",
+                                   "command":  "npx",
+                                   "args":  [
+                                                "-y",
+                                                "mcp-server-aws"
+                                            ],
+                                   "envKeys":  [
+                                                   "AWS_ACCESS_KEY_ID",
+                                                   "AWS_SECRET_ACCESS_KEY",
+                                                   "AWS_REGION"
+                                               ],
+                                   "logo":  "aws.png",
+                                   "category":  "Cloud \u0026 DevOps"
+                               }
+                   }
+}
