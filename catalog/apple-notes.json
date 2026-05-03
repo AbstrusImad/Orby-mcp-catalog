@@ -1,0 +1,14 @@
+{
+    "mcpServers":  {
+                       "apple-notes":  {
+                                           "name":  "Apple Notes",
+                                           "description":  "Read, create and search notes in Apple Notes (macOS).",
+                                           "command":  "uvx",
+                                           "args":  [
+                                                        "apple-notes-mcp"
+                                                    ],
+                                           "logo":  "apple-notes.png",
+                                           "category":  "Productivity"
+                                       }
+                   }
+}

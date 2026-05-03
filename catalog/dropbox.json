@@ -1,0 +1,18 @@
+{
+    "mcpServers":  {
+                       "dropbox":  {
+                                       "name":  "Dropbox",
+                                       "description":  "List, read and search files in your Dropbox.",
+                                       "command":  "npx",
+                                       "args":  [
+                                                    "-y",
+                                                    "mcp-dropbox"
+                                                ],
+                                       "envKeys":  [
+                                                       "DROPBOX_ACCESS_TOKEN"
+                                                   ],
+                                       "logo":  "dropbox.png",
+                                       "category":  "Documents"
+                                   }
+                   }
+}

@@ -1,0 +1,18 @@
+{
+    "mcpServers":  {
+                       "discord":  {
+                                       "name":  "Discord",
+                                       "description":  "Read and send messages in Discord servers.",
+                                       "command":  "npx",
+                                       "args":  [
+                                                    "-y",
+                                                    "mcp-discord"
+                                                ],
+                                       "envKeys":  [
+                                                       "DISCORD_TOKEN"
+                                                   ],
+                                       "logo":  "discord.png",
+                                       "category":  "Communication"
+                                   }
+                   }
+}

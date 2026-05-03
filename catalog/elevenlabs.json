@@ -1,0 +1,18 @@
+{
+    "mcpServers":  {
+                       "elevenlabs":  {
+                                          "name":  "ElevenLabs",
+                                          "description":  "Generate speech and clone voices with ElevenLabs TTS.",
+                                          "command":  "npx",
+                                          "args":  [
+                                                       "-y",
+                                                       "elevenlabs-mcp"
+                                                   ],
+                                          "envKeys":  [
+                                                          "ELEVENLABS_API_KEY"
+                                                      ],
+                                          "logo":  "elevenlabs.png",
+                                          "category":  "Audio \u0026 Voice"
+                                      }
+                   }
+}

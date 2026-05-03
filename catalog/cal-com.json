@@ -1,0 +1,18 @@
+{
+    "mcpServers":  {
+                       "cal-com":  {
+                                       "name":  "Cal.com",
+                                       "description":  "Schedule bookings and manage Cal.com event types.",
+                                       "command":  "npx",
+                                       "args":  [
+                                                    "-y",
+                                                    "cal-com-mcp"
+                                                ],
+                                       "envKeys":  [
+                                                       "CAL_API_KEY"
+                                                   ],
+                                       "logo":  "cal-com.png",
+                                       "category":  "Calendar"
+                                   }
+                   }
+}

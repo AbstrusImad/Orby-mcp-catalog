@@ -1,0 +1,14 @@
+{
+    "mcpServers":  {
+                       "docker":  {
+                                      "name":  "Docker",
+                                      "description":  "List, start, stop and inspect Docker containers.",
+                                      "command":  "uvx",
+                                      "args":  [
+                                                   "docker-mcp"
+                                               ],
+                                      "logo":  "docker.png",
+                                      "category":  "Developer"
+                                  }
+                   }
+}

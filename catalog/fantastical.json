@@ -1,0 +1,14 @@
+{
+    "mcpServers":  {
+                       "fantastical":  {
+                                           "name":  "Fantastical",
+                                           "description":  "Create events in Fantastical via natural language (macOS).",
+                                           "command":  "uvx",
+                                           "args":  [
+                                                        "fantastical-mcp"
+                                                    ],
+                                           "logo":  "fantastical.png",
+                                           "category":  "Calendar"
+                                       }
+                   }
+}

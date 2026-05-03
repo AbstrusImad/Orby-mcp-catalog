@@ -1,0 +1,18 @@
+{
+    "mcpServers":  {
+                       "cloudflare":  {
+                                          "name":  "Cloudflare",
+                                          "description":  "Manage DNS, Workers, R2 buckets and Pages deployments.",
+                                          "command":  "npx",
+                                          "args":  [
+                                                       "-y",
+                                                       "cloudflare-mcp"
+                                                   ],
+                                          "envKeys":  [
+                                                          "CLOUDFLARE_API_TOKEN"
+                                                      ],
+                                          "logo":  "cloudflare.png",
+                                          "category":  "Cloud \u0026 DevOps"
+                                      }
+                   }
+}

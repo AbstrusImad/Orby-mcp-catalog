@@ -1,0 +1,18 @@
+{
+    "mcpServers":  {
+                       "exa":  {
+                                   "name":  "Exa",
+                                   "description":  "Neural web search with semantic similarity ranking.",
+                                   "command":  "npx",
+                                   "args":  [
+                                                "-y",
+                                                "exa-mcp-server"
+                                            ],
+                                   "envKeys":  [
+                                                   "EXA_API_KEY"
+                                               ],
+                                   "logo":  "exa.png",
+                                   "category":  "Search"
+                               }
+                   }
+}

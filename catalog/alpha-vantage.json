@@ -1,0 +1,18 @@
+{
+    "mcpServers":  {
+                       "alpha-vantage":  {
+                                             "name":  "Alpha Vantage",
+                                             "description":  "Stock quotes, forex and crypto data via Alpha Vantage.",
+                                             "command":  "npx",
+                                             "args":  [
+                                                          "-y",
+                                                          "alpha-vantage-mcp"
+                                                      ],
+                                             "envKeys":  [
+                                                             "ALPHA_VANTAGE_API_KEY"
+                                                         ],
+                                             "logo":  "alpha-vantage.png",
+                                             "category":  "Finance"
+                                         }
+                   }
+}

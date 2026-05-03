@@ -1,0 +1,14 @@
+{
+    "mcpServers":  {
+                       "apple-reminders":  {
+                                               "name":  "Apple Reminders",
+                                               "description":  "Read and create reminders in Apple Reminders (macOS).",
+                                               "command":  "uvx",
+                                               "args":  [
+                                                            "apple-reminders-mcp"
+                                                        ],
+                                               "logo":  "apple-reminders.png",
+                                               "category":  "Productivity"
+                                           }
+                   }
+}

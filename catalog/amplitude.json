@@ -1,0 +1,19 @@
+{
+    "mcpServers":  {
+                       "amplitude":  {
+                                         "name":  "Amplitude",
+                                         "description":  "Query behavioral analytics and cohorts from Amplitude.",
+                                         "command":  "npx",
+                                         "args":  [
+                                                      "-y",
+                                                      "amplitude-mcp"
+                                                  ],
+                                         "envKeys":  [
+                                                         "AMPLITUDE_API_KEY",
+                                                         "AMPLITUDE_SECRET_KEY"
+                                                     ],
+                                         "logo":  "amplitude.png",
+                                         "category":  "Analytics"
+                                     }
+                   }
+}

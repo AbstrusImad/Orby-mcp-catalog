@@ -1,0 +1,19 @@
+{
+    "mcpServers":  {
+                       "amazon-seller":  {
+                                             "name":  "Amazon Seller",
+                                             "description":  "Manage Amazon Seller Central listings, orders and inventory.",
+                                             "command":  "npx",
+                                             "args":  [
+                                                          "-y",
+                                                          "amazon-seller-mcp"
+                                                      ],
+                                             "envKeys":  [
+                                                             "AMAZON_SELLER_ID",
+                                                             "AMAZON_MWS_AUTH_TOKEN"
+                                                         ],
+                                             "logo":  "amazon-seller.png",
+                                             "category":  "E-Commerce"
+                                         }
+                   }
+}
