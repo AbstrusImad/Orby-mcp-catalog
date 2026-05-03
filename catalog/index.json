@@ -118,6 +118,5 @@
   "pdf.json",
   "excel.json",
   "google-sheets.json",
-  "markdown-to-pdf.json",
-  "woocommerce.json"
+  "markdown-to-pdf.json"
 ]
