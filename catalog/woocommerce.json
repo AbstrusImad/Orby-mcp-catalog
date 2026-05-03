@@ -4,7 +4,7 @@
       "command": "npx",
       "args": ["-y", "mcp-server-woocommerce"],
       "env": { "WC_URL": "https://midominio.com", "WC_CONSUMER_KEY": "<KEY>", "WC_CONSUMER_SECRET": "<SECRET>" },
-      "logo": "https://raw.githubusercontent.com/AbstrusImad/Orby-mcp-catalog/main/catalog/oowoocommerce.png"
+      "logo": "https://raw.githubusercontent.com/AbstrusImad/Orby-mcp-catalog/main/catalog/woocommerce.png"
     }
   }
 }
