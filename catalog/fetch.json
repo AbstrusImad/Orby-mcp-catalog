@@ -1,0 +1,14 @@
+﻿{
+    "mcpServers":  {
+                       "fetch":  {
+                                     "name":  "Fetch",
+                                     "description":  "Simple HTTP GET with Markdown-readable output.",
+                                     "command":  "uvx",
+                                     "args":  [
+                                                  "mcp-server-fetch"
+                                              ],
+                                     "logo":  "fetch.png",
+                                     "category":  "Browser"
+                                 }
+                   }
+}

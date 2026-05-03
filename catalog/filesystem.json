@@ -1,0 +1,16 @@
+﻿{
+    "mcpServers":  {
+                       "filesystem":  {
+                                          "name":  "Filesystem",
+                                          "description":  "Read and write files inside a folder you choose.",
+                                          "command":  "npx",
+                                          "args":  [
+                                                       "-y",
+                                                       "@modelcontextprotocol/server-filesystem"
+                                                   ],
+                                          "needsPath":  true,
+                                          "logo":  "filesystem.png",
+                                          "category":  "Files \u0026 System"
+                                      }
+                   }
+}

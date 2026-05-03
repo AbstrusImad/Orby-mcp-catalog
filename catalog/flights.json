@@ -1,0 +1,18 @@
+﻿{
+    "mcpServers":  {
+                       "flights":  {
+                                       "name":  "Flights",
+                                       "description":  "Search flights, check prices and track routes.",
+                                       "command":  "npx",
+                                       "args":  [
+                                                    "-y",
+                                                    "flights-mcp"
+                                                ],
+                                       "envKeys":  [
+                                                       "SERPAPI_KEY"
+                                                   ],
+                                       "logo":  "flights.png",
+                                       "category":  "Maps \u0026 Travel"
+                                   }
+                   }
+}

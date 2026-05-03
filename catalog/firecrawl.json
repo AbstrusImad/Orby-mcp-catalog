@@ -1,0 +1,18 @@
+﻿{
+    "mcpServers":  {
+                       "firecrawl":  {
+                                         "name":  "Firecrawl",
+                                         "description":  "Scrape and crawl websites into clean Markdown/JSON.",
+                                         "command":  "npx",
+                                         "args":  [
+                                                      "-y",
+                                                      "firecrawl-mcp"
+                                                  ],
+                                         "envKeys":  [
+                                                         "FIRECRAWL_API_KEY"
+                                                     ],
+                                         "logo":  "firecrawl.png",
+                                         "category":  "Browser"
+                                     }
+                   }
+}

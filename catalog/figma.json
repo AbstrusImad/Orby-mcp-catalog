@@ -1,0 +1,18 @@
+﻿{
+    "mcpServers":  {
+                       "figma":  {
+                                     "name":  "Figma",
+                                     "description":  "Read Figma frames, components and comments.",
+                                     "command":  "npx",
+                                     "args":  [
+                                                  "-y",
+                                                  "framelink-figma-mcp"
+                                              ],
+                                     "envKeys":  [
+                                                     "FIGMA_API_KEY"
+                                                 ],
+                                     "logo":  "figma.png",
+                                     "category":  "Design"
+                                 }
+                   }
+}
