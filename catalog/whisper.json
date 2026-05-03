@@ -1,0 +1,14 @@
+{
+    "mcpServers":  {
+                       "whisper":  {
+                                       "name":  "Whisper",
+                                       "description":  "Transcribe audio files locally with OpenAI Whisper.",
+                                       "command":  "uvx",
+                                       "args":  [
+                                                    "whisper-mcp"
+                                                ],
+                                       "logo":  "whisper.png",
+                                       "category":  "Audio \u0026 Voice"
+                                   }
+                   }
+}

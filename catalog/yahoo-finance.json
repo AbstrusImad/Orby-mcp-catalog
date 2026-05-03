@@ -1,0 +1,14 @@
+{
+    "mcpServers":  {
+                       "yahoo-finance":  {
+                                             "name":  "Yahoo Finance",
+                                             "description":  "Look up stock prices, historical data and financial summaries.",
+                                             "command":  "uvx",
+                                             "args":  [
+                                                          "yahoo-finance-mcp"
+                                                      ],
+                                             "logo":  "yahoo-finance.png",
+                                             "category":  "Finance"
+                                         }
+                   }
+}

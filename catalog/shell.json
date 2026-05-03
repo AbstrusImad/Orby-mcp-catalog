@@ -1,0 +1,15 @@
+{
+    "mcpServers":  {
+                       "shell":  {
+                                     "name":  "Shell",
+                                     "description":  "Execute shell commands on your PC (use with care).",
+                                     "command":  "npx",
+                                     "args":  [
+                                                  "-y",
+                                                  "mcp-shell-server"
+                                              ],
+                                     "logo":  "shell.png",
+                                     "category":  "Files \u0026 System"
+                                 }
+                   }
+}

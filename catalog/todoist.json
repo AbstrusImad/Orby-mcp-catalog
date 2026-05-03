@@ -1,0 +1,18 @@
+{
+    "mcpServers":  {
+                       "todoist":  {
+                                       "name":  "Todoist",
+                                       "description":  "Manage tasks, projects and labels in Todoist.",
+                                       "command":  "npx",
+                                       "args":  [
+                                                    "-y",
+                                                    "@abhiz123/todoist-mcp-server"
+                                                ],
+                                       "envKeys":  [
+                                                       "TODOIST_API_TOKEN"
+                                                   ],
+                                       "logo":  "todoist.png",
+                                       "category":  "Productivity"
+                                   }
+                   }
+}

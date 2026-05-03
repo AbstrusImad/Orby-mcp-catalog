@@ -1,0 +1,19 @@
+{
+    "mcpServers":  {
+                       "twilio":  {
+                                      "name":  "Twilio",
+                                      "description":  "Send SMS, place calls and manage Twilio numbers.",
+                                      "command":  "npx",
+                                      "args":  [
+                                                   "-y",
+                                                   "@twilio-alpha/mcp"
+                                               ],
+                                      "envKeys":  [
+                                                      "TWILIO_ACCOUNT_SID",
+                                                      "TWILIO_AUTH_TOKEN"
+                                                  ],
+                                      "logo":  "twilio.png",
+                                      "category":  "Communication"
+                                  }
+                   }
+}

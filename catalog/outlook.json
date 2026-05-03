@@ -1,0 +1,20 @@
+{
+    "mcpServers":  {
+                       "outlook":  {
+                                       "name":  "Outlook Mail",
+                                       "description":  "Read, send and organize Microsoft Outlook emails.",
+                                       "command":  "npx",
+                                       "args":  [
+                                                    "-y",
+                                                    "mcp-outlook"
+                                                ],
+                                       "envKeys":  [
+                                                       "MS_CLIENT_ID",
+                                                       "MS_CLIENT_SECRET",
+                                                       "MS_TENANT_ID"
+                                                   ],
+                                       "logo":  "outlook.png",
+                                       "category":  "Communication"
+                                   }
+                   }
+}

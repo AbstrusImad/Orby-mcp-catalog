@@ -1,0 +1,19 @@
+{
+    "mcpServers":  {
+                       "shopify":  {
+                                       "name":  "Shopify",
+                                       "description":  "Manage products, orders and customers on Shopify.",
+                                       "command":  "npx",
+                                       "args":  [
+                                                    "-y",
+                                                    "shopify-mcp"
+                                                ],
+                                       "envKeys":  [
+                                                       "SHOPIFY_ACCESS_TOKEN",
+                                                       "SHOPIFY_STORE_NAME"
+                                                   ],
+                                       "logo":  "shopify.png",
+                                       "category":  "E-Commerce"
+                                   }
+                   }
+}

@@ -1,0 +1,19 @@
+{
+    "mcpServers":  {
+                       "paypal":  {
+                                      "name":  "PayPal",
+                                      "description":  "Create and manage PayPal orders and transactions.",
+                                      "command":  "npx",
+                                      "args":  [
+                                                   "-y",
+                                                   "paypal-mcp"
+                                               ],
+                                      "envKeys":  [
+                                                      "PAYPAL_CLIENT_ID",
+                                                      "PAYPAL_CLIENT_SECRET"
+                                                  ],
+                                      "logo":  "paypal.png",
+                                      "category":  "E-Commerce"
+                                  }
+                   }
+}

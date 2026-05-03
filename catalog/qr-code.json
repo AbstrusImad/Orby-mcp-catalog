@@ -1,0 +1,14 @@
+{
+    "mcpServers":  {
+                       "qr-code":  {
+                                       "name":  "QR Code",
+                                       "description":  "Generate and decode QR codes from text or URLs.",
+                                       "command":  "uvx",
+                                       "args":  [
+                                                    "qr-code-mcp"
+                                                ],
+                                       "logo":  "qr-code.png",
+                                       "category":  "Utilities"
+                                   }
+                   }
+}

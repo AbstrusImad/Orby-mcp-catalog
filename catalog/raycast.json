@@ -1,0 +1,15 @@
+{
+    "mcpServers":  {
+                       "raycast":  {
+                                       "name":  "Raycast",
+                                       "description":  "Trigger Raycast commands, snippets and scripts (macOS).",
+                                       "command":  "npx",
+                                       "args":  [
+                                                    "-y",
+                                                    "mcp-raycast"
+                                                ],
+                                       "logo":  "raycast.png",
+                                       "category":  "Productivity"
+                                   }
+                   }
+}

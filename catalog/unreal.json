@@ -1,0 +1,14 @@
+{
+    "mcpServers":  {
+                       "unreal":  {
+                                      "name":  "Unreal Engine",
+                                      "description":  "Control Unreal Editor via Python remote execution.",
+                                      "command":  "uvx",
+                                      "args":  [
+                                                   "unreal-mcp"
+                                               ],
+                                      "logo":  "unreal.png",
+                                      "category":  "Design"
+                                  }
+                   }
+}

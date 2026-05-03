@@ -1,0 +1,18 @@
+{
+    "mcpServers":  {
+                       "notion":  {
+                                      "name":  "Notion",
+                                      "description":  "Read and edit Notion pages, databases and blocks.",
+                                      "command":  "npx",
+                                      "args":  [
+                                                   "-y",
+                                                   "@notionhq/notion-mcp-server"
+                                               ],
+                                      "envKeys":  [
+                                                      "NOTION_API_KEY"
+                                                  ],
+                                      "logo":  "notion.png",
+                                      "category":  "Productivity"
+                                  }
+                   }
+}

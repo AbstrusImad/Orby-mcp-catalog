@@ -1,0 +1,15 @@
+{
+    "mcpServers":  {
+                       "terraform":  {
+                                         "name":  "Terraform",
+                                         "description":  "Plan, apply and inspect Terraform infrastructure.",
+                                         "command":  "uvx",
+                                         "args":  [
+                                                      "terraform-mcp"
+                                                  ],
+                                         "needsPath":  true,
+                                         "logo":  "terraform.png",
+                                         "category":  "Cloud \u0026 DevOps"
+                                     }
+                   }
+}

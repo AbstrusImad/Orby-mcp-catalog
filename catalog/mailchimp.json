@@ -1,0 +1,18 @@
+{
+    "mcpServers":  {
+                       "mailchimp":  {
+                                         "name":  "Mailchimp",
+                                         "description":  "Manage campaigns, lists and subscribers in Mailchimp.",
+                                         "command":  "npx",
+                                         "args":  [
+                                                      "-y",
+                                                      "mailchimp-mcp"
+                                                  ],
+                                         "envKeys":  [
+                                                         "MAILCHIMP_API_KEY"
+                                                     ],
+                                         "logo":  "mailchimp.png",
+                                         "category":  "CRM \u0026 Email"
+                                     }
+                   }
+}

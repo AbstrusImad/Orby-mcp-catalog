@@ -1,0 +1,19 @@
+{
+    "mcpServers":  {
+                       "slack":  {
+                                     "name":  "Slack",
+                                     "description":  "Read channels, send messages and manage Slack workspaces.",
+                                     "command":  "npx",
+                                     "args":  [
+                                                  "-y",
+                                                  "@modelcontextprotocol/server-slack"
+                                              ],
+                                     "envKeys":  [
+                                                     "SLACK_BOT_TOKEN",
+                                                     "SLACK_TEAM_ID"
+                                                 ],
+                                     "logo":  "slack.png",
+                                     "category":  "Communication"
+                                 }
+                   }
+}

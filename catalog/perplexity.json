@@ -1,0 +1,18 @@
+{
+    "mcpServers":  {
+                       "perplexity":  {
+                                          "name":  "Perplexity",
+                                          "description":  "Synthesized answers from multiple web sources.",
+                                          "command":  "npx",
+                                          "args":  [
+                                                       "-y",
+                                                       "server-perplexity-ask"
+                                                   ],
+                                          "envKeys":  [
+                                                          "PERPLEXITY_API_KEY"
+                                                      ],
+                                          "logo":  "perplexity.png",
+                                          "category":  "Search"
+                                      }
+                   }
+}

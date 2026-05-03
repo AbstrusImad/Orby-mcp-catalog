@@ -1,0 +1,18 @@
+{
+    "mcpServers":  {
+                       "netlify":  {
+                                       "name":  "Netlify",
+                                       "description":  "Manage Netlify sites, deploys and forms.",
+                                       "command":  "npx",
+                                       "args":  [
+                                                    "-y",
+                                                    "netlify-mcp"
+                                                ],
+                                       "envKeys":  [
+                                                       "NETLIFY_ACCESS_TOKEN"
+                                                   ],
+                                       "logo":  "netlify.png",
+                                       "category":  "Cloud \u0026 DevOps"
+                                   }
+                   }
+}

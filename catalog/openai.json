@@ -1,0 +1,18 @@
+{
+    "mcpServers":  {
+                       "openai":  {
+                                      "name":  "OpenAI",
+                                      "description":  "Proxy to GPT-4o, DALL-E and other OpenAI models as sub-agent tools.",
+                                      "command":  "npx",
+                                      "args":  [
+                                                   "-y",
+                                                   "openai-mcp"
+                                               ],
+                                      "envKeys":  [
+                                                      "OPENAI_API_KEY"
+                                                  ],
+                                      "logo":  "openai.png",
+                                      "category":  "AI \u0026 Models"
+                                  }
+                   }
+}

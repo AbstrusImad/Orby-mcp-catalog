@@ -1,0 +1,18 @@
+{
+    "mcpServers":  {
+                       "replicate":  {
+                                         "name":  "Replicate",
+                                         "description":  "Run ML models on Replicate â€” image, audio, video generation.",
+                                         "command":  "npx",
+                                         "args":  [
+                                                      "-y",
+                                                      "replicate-mcp"
+                                                  ],
+                                         "envKeys":  [
+                                                         "REPLICATE_API_KEY"
+                                                     ],
+                                         "logo":  "replicate.png",
+                                         "category":  "AI \u0026 Models"
+                                     }
+                   }
+}

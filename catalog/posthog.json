@@ -1,0 +1,19 @@
+{
+    "mcpServers":  {
+                       "posthog":  {
+                                       "name":  "PostHog",
+                                       "description":  "Query events, insights and feature flags from PostHog.",
+                                       "command":  "npx",
+                                       "args":  [
+                                                    "-y",
+                                                    "posthog-mcp"
+                                                ],
+                                       "envKeys":  [
+                                                       "POSTHOG_API_KEY",
+                                                       "POSTHOG_HOST"
+                                                   ],
+                                       "logo":  "posthog.png",
+                                       "category":  "Analytics"
+                                   }
+                   }
+}

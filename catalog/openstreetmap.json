@@ -1,0 +1,14 @@
+{
+    "mcpServers":  {
+                       "openstreetmap":  {
+                                             "name":  "OpenStreetMap",
+                                             "description":  "Search places and get routing via OpenStreetMap Nominatim/OSRM.",
+                                             "command":  "uvx",
+                                             "args":  [
+                                                          "osm-mcp"
+                                                      ],
+                                             "logo":  "openstreetmap.png",
+                                             "category":  "Maps \u0026 Travel"
+                                         }
+                   }
+}

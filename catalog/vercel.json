@@ -1,0 +1,18 @@
+{
+    "mcpServers":  {
+                       "vercel":  {
+                                      "name":  "Vercel",
+                                      "description":  "Deploy, inspect and manage Vercel projects and deployments.",
+                                      "command":  "npx",
+                                      "args":  [
+                                                   "-y",
+                                                   "vercel-mcp"
+                                               ],
+                                      "envKeys":  [
+                                                      "VERCEL_API_TOKEN"
+                                                  ],
+                                      "logo":  "vercel.png",
+                                      "category":  "Cloud \u0026 DevOps"
+                                  }
+                   }
+}

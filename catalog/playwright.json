@@ -1,0 +1,15 @@
+{
+    "mcpServers":  {
+                       "playwright":  {
+                                          "name":  "Browser (Playwright)",
+                                          "description":  "Control a real Chromium browser â€” navigate, click, fill forms, take screenshots.",
+                                          "command":  "npx",
+                                          "args":  [
+                                                       "-y",
+                                                       "@playwright/mcp@latest"
+                                                   ],
+                                          "logo":  "playwright.png",
+                                          "category":  "Browser"
+                                      }
+                   }
+}

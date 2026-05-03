@@ -1,0 +1,15 @@
+{
+    "mcpServers":  {
+                       "time":  {
+                                    "name":  "Time",
+                                    "description":  "Get current time, convert between time zones and calculate dates.",
+                                    "command":  "npx",
+                                    "args":  [
+                                                 "-y",
+                                                 "@modelcontextprotocol/server-time"
+                                             ],
+                                    "logo":  "time.png",
+                                    "category":  "Utilities"
+                                }
+                   }
+}

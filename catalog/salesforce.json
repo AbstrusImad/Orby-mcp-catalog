@@ -1,0 +1,21 @@
+{
+    "mcpServers":  {
+                       "salesforce":  {
+                                          "name":  "Salesforce",
+                                          "description":  "Query and manage Salesforce objects â€” leads, accounts, opportunities.",
+                                          "command":  "npx",
+                                          "args":  [
+                                                       "-y",
+                                                       "salesforce-mcp"
+                                                   ],
+                                          "envKeys":  [
+                                                          "SF_CLIENT_ID",
+                                                          "SF_CLIENT_SECRET",
+                                                          "SF_USERNAME",
+                                                          "SF_SECURITY_TOKEN"
+                                                      ],
+                                          "logo":  "salesforce.png",
+                                          "category":  "CRM \u0026 Email"
+                                      }
+                   }
+}

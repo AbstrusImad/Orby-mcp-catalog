@@ -1,0 +1,15 @@
+{
+    "mcpServers":  {
+                       "windows-cli":  {
+                                           "name":  "Windows CLI",
+                                           "description":  "Structured access to PowerShell and cmd.exe on Windows.",
+                                           "command":  "npx",
+                                           "args":  [
+                                                        "-y",
+                                                        "@simonb97/server-win-cli"
+                                                    ],
+                                           "logo":  "windows-cli.png",
+                                           "category":  "Files \u0026 System"
+                                       }
+                   }
+}

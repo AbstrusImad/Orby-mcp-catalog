@@ -1,0 +1,18 @@
+{
+    "mcpServers":  {
+                       "supabase":  {
+                                        "name":  "Supabase",
+                                        "description":  "Manage Supabase projects, tables, auth and storage.",
+                                        "command":  "npx",
+                                        "args":  [
+                                                     "-y",
+                                                     "@supabase/mcp-server-supabase"
+                                                 ],
+                                        "envKeys":  [
+                                                        "SUPABASE_ACCESS_TOKEN"
+                                                    ],
+                                        "logo":  "supabase.png",
+                                        "category":  "Database"
+                                    }
+                   }
+}

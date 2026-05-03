@@ -1,0 +1,19 @@
+{
+    "mcpServers":  {
+                       "sonarqube":  {
+                                         "name":  "SonarQube",
+                                         "description":  "Static analysis findings and code quality metrics.",
+                                         "command":  "npx",
+                                         "args":  [
+                                                      "-y",
+                                                      "sonarqube-mcp-server"
+                                                  ],
+                                         "envKeys":  [
+                                                         "SONARQUBE_URL",
+                                                         "SONARQUBE_TOKEN"
+                                                     ],
+                                         "logo":  "sonarqube.png",
+                                         "category":  "Developer"
+                                     }
+                   }
+}

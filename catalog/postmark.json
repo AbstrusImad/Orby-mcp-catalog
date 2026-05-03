@@ -1,0 +1,18 @@
+{
+    "mcpServers":  {
+                       "postmark":  {
+                                        "name":  "Postmark",
+                                        "description":  "Send and track transactional emails via Postmark.",
+                                        "command":  "npx",
+                                        "args":  [
+                                                     "-y",
+                                                     "postmark-mcp"
+                                                 ],
+                                        "envKeys":  [
+                                                        "POSTMARK_API_KEY"
+                                                    ],
+                                        "logo":  "postmark.png",
+                                        "category":  "CRM \u0026 Email"
+                                    }
+                   }
+}

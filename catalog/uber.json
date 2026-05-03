@@ -1,0 +1,19 @@
+{
+    "mcpServers":  {
+                       "uber":  {
+                                    "name":  "Uber",
+                                    "description":  "Estimate fares, request rides and check trip status.",
+                                    "command":  "npx",
+                                    "args":  [
+                                                 "-y",
+                                                 "uber-mcp"
+                                             ],
+                                    "envKeys":  [
+                                                    "UBER_CLIENT_ID",
+                                                    "UBER_CLIENT_SECRET"
+                                                ],
+                                    "logo":  "uber.png",
+                                    "category":  "Maps \u0026 Travel"
+                                }
+                   }
+}

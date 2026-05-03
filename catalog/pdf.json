@@ -1,0 +1,15 @@
+{
+    "mcpServers":  {
+                       "pdf":  {
+                                   "name":  "PDF",
+                                   "description":  "Extract text, merge and sign PDF documents.",
+                                   "command":  "uvx",
+                                   "args":  [
+                                                "pdf-mcp"
+                                            ],
+                                   "needsPath":  true,
+                                   "logo":  "pdf.png",
+                                   "category":  "Utilities"
+                               }
+                   }
+}

@@ -1,0 +1,18 @@
+{
+    "mcpServers":  {
+                       "postgres":  {
+                                        "name":  "PostgreSQL",
+                                        "description":  "Query PostgreSQL databases. Read-only by default.",
+                                        "command":  "npx",
+                                        "args":  [
+                                                     "-y",
+                                                     "@modelcontextprotocol/server-postgres"
+                                                 ],
+                                        "envKeys":  [
+                                                        "POSTGRES_CONNECTION_STRING"
+                                                    ],
+                                        "logo":  "postgres.png",
+                                        "category":  "Database"
+                                    }
+                   }
+}

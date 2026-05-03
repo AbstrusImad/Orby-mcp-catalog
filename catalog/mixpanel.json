@@ -1,0 +1,18 @@
+{
+    "mcpServers":  {
+                       "mixpanel":  {
+                                        "name":  "Mixpanel",
+                                        "description":  "Query events, funnels and user profiles from Mixpanel.",
+                                        "command":  "npx",
+                                        "args":  [
+                                                     "-y",
+                                                     "mixpanel-mcp"
+                                                 ],
+                                        "envKeys":  [
+                                                        "MIXPANEL_API_SECRET"
+                                                    ],
+                                        "logo":  "mixpanel.png",
+                                        "category":  "Analytics"
+                                    }
+                   }
+}

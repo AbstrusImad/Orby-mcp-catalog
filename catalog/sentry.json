@@ -1,0 +1,18 @@
+{
+    "mcpServers":  {
+                       "sentry":  {
+                                      "name":  "Sentry",
+                                      "description":  "Read issues, stacktraces and release health from Sentry.",
+                                      "command":  "npx",
+                                      "args":  [
+                                                   "-y",
+                                                   "@modelcontextprotocol/server-sentry"
+                                               ],
+                                      "envKeys":  [
+                                                      "SENTRY_AUTH_TOKEN"
+                                                  ],
+                                      "logo":  "sentry.png",
+                                      "category":  "Developer"
+                                  }
+                   }
+}

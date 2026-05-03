@@ -1,0 +1,17 @@
+{
+    "mcpServers":  {
+                       "stable-diffusion":  {
+                                                "name":  "Stable Diffusion",
+                                                "description":  "Generate images locally with Stable Diffusion WebUI API.",
+                                                "command":  "uvx",
+                                                "args":  [
+                                                             "sd-mcp"
+                                                         ],
+                                                "envKeys":  [
+                                                                "SD_API_URL"
+                                                            ],
+                                                "logo":  "stable-diffusion.png",
+                                                "category":  "AI \u0026 Models"
+                                            }
+                   }
+}

@@ -1,0 +1,18 @@
+{
+    "mcpServers":  {
+                       "weather":  {
+                                       "name":  "Weather",
+                                       "description":  "Current conditions and forecasts via OpenWeather.",
+                                       "command":  "npx",
+                                       "args":  [
+                                                    "-y",
+                                                    "weather-mcp"
+                                                ],
+                                       "envKeys":  [
+                                                       "OPENWEATHER_API_KEY"
+                                                   ],
+                                       "logo":  "weather.png",
+                                       "category":  "Utilities"
+                                   }
+                   }
+}

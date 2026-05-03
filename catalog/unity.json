@@ -1,0 +1,15 @@
+{
+    "mcpServers":  {
+                       "unity":  {
+                                     "name":  "Unity",
+                                     "description":  "Control Unity Editor â€” run scripts, manage scenes and assets.",
+                                     "command":  "npx",
+                                     "args":  [
+                                                  "-y",
+                                                  "unity-mcp"
+                                              ],
+                                     "logo":  "unity.png",
+                                     "category":  "Design"
+                                 }
+                   }
+}

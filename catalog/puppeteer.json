@@ -1,0 +1,15 @@
+{
+    "mcpServers":  {
+                       "puppeteer":  {
+                                         "name":  "Puppeteer",
+                                         "description":  "Headless Chrome automation via Puppeteer.",
+                                         "command":  "npx",
+                                         "args":  [
+                                                      "-y",
+                                                      "@modelcontextprotocol/server-puppeteer"
+                                                  ],
+                                         "logo":  "puppeteer.png",
+                                         "category":  "Browser"
+                                     }
+                   }
+}

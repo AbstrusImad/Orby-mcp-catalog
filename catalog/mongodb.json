@@ -1,0 +1,18 @@
+{
+    "mcpServers":  {
+                       "mongodb":  {
+                                       "name":  "MongoDB",
+                                       "description":  "Query and manage MongoDB collections.",
+                                       "command":  "npx",
+                                       "args":  [
+                                                    "-y",
+                                                    "mcp-mongo-server"
+                                                ],
+                                       "envKeys":  [
+                                                       "MONGODB_URI"
+                                                   ],
+                                       "logo":  "mongodb.png",
+                                       "category":  "Database"
+                                   }
+                   }
+}

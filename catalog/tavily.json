@@ -1,0 +1,18 @@
+{
+    "mcpServers":  {
+                       "tavily":  {
+                                      "name":  "Tavily",
+                                      "description":  "LLM-optimized web search with long snippets.",
+                                      "command":  "npx",
+                                      "args":  [
+                                                   "-y",
+                                                   "tavily-mcp"
+                                               ],
+                                      "envKeys":  [
+                                                      "TAVILY_API_KEY"
+                                                  ],
+                                      "logo":  "tavily.png",
+                                      "category":  "Search"
+                                  }
+                   }
+}

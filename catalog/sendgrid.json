@@ -1,0 +1,18 @@
+{
+    "mcpServers":  {
+                       "sendgrid":  {
+                                        "name":  "SendGrid",
+                                        "description":  "Send emails and manage templates via SendGrid.",
+                                        "command":  "npx",
+                                        "args":  [
+                                                     "-y",
+                                                     "sendgrid-mcp"
+                                                 ],
+                                        "envKeys":  [
+                                                        "SENDGRID_API_KEY"
+                                                    ],
+                                        "logo":  "sendgrid.png",
+                                        "category":  "CRM \u0026 Email"
+                                    }
+                   }
+}

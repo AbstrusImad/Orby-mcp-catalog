@@ -1,0 +1,15 @@
+{
+    "mcpServers":  {
+                       "markdown-to-pdf":  {
+                                               "name":  "Markdown to PDF",
+                                               "description":  "Convert Markdown files into styled PDF documents.",
+                                               "command":  "uvx",
+                                               "args":  [
+                                                            "md2pdf-mcp"
+                                                        ],
+                                               "needsPath":  true,
+                                               "logo":  "markdown-to-pdf.png",
+                                               "category":  "Utilities"
+                                           }
+                   }
+}

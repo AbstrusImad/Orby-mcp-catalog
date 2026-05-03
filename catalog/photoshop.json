@@ -1,0 +1,15 @@
+{
+    "mcpServers":  {
+                       "photoshop":  {
+                                         "name":  "Photoshop",
+                                         "description":  "Automate Photoshop via UXP scripting.",
+                                         "command":  "npx",
+                                         "args":  [
+                                                      "-y",
+                                                      "photoshop-mcp"
+                                                  ],
+                                         "logo":  "photoshop.png",
+                                         "category":  "Design"
+                                     }
+                   }
+}

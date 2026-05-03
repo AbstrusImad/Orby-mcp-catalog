@@ -1,0 +1,20 @@
+{
+    "mcpServers":  {
+                       "plaid":  {
+                                     "name":  "Plaid",
+                                     "description":  "Read bank accounts, balances and transactions via Plaid.",
+                                     "command":  "npx",
+                                     "args":  [
+                                                  "-y",
+                                                  "plaid-mcp"
+                                              ],
+                                     "envKeys":  [
+                                                     "PLAID_CLIENT_ID",
+                                                     "PLAID_SECRET",
+                                                     "PLAID_ENV"
+                                                 ],
+                                     "logo":  "plaid.png",
+                                     "category":  "Finance"
+                                 }
+                   }
+}

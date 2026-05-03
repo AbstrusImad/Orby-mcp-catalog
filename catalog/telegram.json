@@ -1,0 +1,18 @@
+{
+    "mcpServers":  {
+                       "telegram":  {
+                                        "name":  "Telegram",
+                                        "description":  "Send and read Telegram messages via the Bot API.",
+                                        "command":  "npx",
+                                        "args":  [
+                                                     "-y",
+                                                     "mcp-telegram"
+                                                 ],
+                                        "envKeys":  [
+                                                        "TELEGRAM_BOT_TOKEN"
+                                                    ],
+                                        "logo":  "telegram.png",
+                                        "category":  "Communication"
+                                    }
+                   }
+}

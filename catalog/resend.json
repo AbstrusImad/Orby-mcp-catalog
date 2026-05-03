@@ -1,0 +1,18 @@
+{
+    "mcpServers":  {
+                       "resend":  {
+                                      "name":  "Resend",
+                                      "description":  "Send transactional emails via the Resend API.",
+                                      "command":  "npx",
+                                      "args":  [
+                                                   "-y",
+                                                   "resend-mcp"
+                                               ],
+                                      "envKeys":  [
+                                                      "RESEND_API_KEY"
+                                                  ],
+                                      "logo":  "resend.png",
+                                      "category":  "CRM \u0026 Email"
+                                  }
+                   }
+}

@@ -1,0 +1,18 @@
+{
+    "mcpServers":  {
+                       "stripe":  {
+                                      "name":  "Stripe",
+                                      "description":  "Create charges, manage customers and handle refunds via Stripe.",
+                                      "command":  "npx",
+                                      "args":  [
+                                                   "-y",
+                                                   "stripe-mcp"
+                                               ],
+                                      "envKeys":  [
+                                                      "STRIPE_SECRET_KEY"
+                                                  ],
+                                      "logo":  "stripe.png",
+                                      "category":  "E-Commerce"
+                                  }
+                   }
+}

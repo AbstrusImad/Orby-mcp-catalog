@@ -1,0 +1,18 @@
+{
+    "mcpServers":  {
+                       "polygon":  {
+                                       "name":  "Polygon.io",
+                                       "description":  "Real-time and historical market data via Polygon.io.",
+                                       "command":  "npx",
+                                       "args":  [
+                                                    "-y",
+                                                    "polygon-mcp"
+                                                ],
+                                       "envKeys":  [
+                                                       "POLYGON_API_KEY"
+                                                   ],
+                                       "logo":  "polygon.png",
+                                       "category":  "Finance"
+                                   }
+                   }
+}

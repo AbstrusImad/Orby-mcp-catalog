@@ -1,0 +1,15 @@
+{
+    "mcpServers":  {
+                       "obsidian":  {
+                                        "name":  "Obsidian",
+                                        "description":  "Search, read and edit notes in your Obsidian vault.",
+                                        "command":  "uvx",
+                                        "args":  [
+                                                     "mcp-obsidian"
+                                                 ],
+                                        "needsPath":  true,
+                                        "logo":  "obsidian.png",
+                                        "category":  "Productivity"
+                                    }
+                   }
+}

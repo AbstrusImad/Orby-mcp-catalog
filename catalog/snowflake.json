@@ -1,0 +1,20 @@
+{
+    "mcpServers":  {
+                       "snowflake":  {
+                                         "name":  "Snowflake",
+                                         "description":  "Query Snowflake warehouses with SQL.",
+                                         "command":  "uvx",
+                                         "args":  [
+                                                      "mcp-snowflake-server"
+                                                  ],
+                                         "envKeys":  [
+                                                         "SNOWFLAKE_ACCOUNT",
+                                                         "SNOWFLAKE_USER",
+                                                         "SNOWFLAKE_PASSWORD",
+                                                         "SNOWFLAKE_WAREHOUSE"
+                                                     ],
+                                         "logo":  "snowflake.png",
+                                         "category":  "Database"
+                                     }
+                   }
+}

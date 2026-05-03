@@ -1,0 +1,20 @@
+{
+    "mcpServers":  {
+                       "onedrive":  {
+                                        "name":  "OneDrive",
+                                        "description":  "Browse and read files in OneDrive and SharePoint.",
+                                        "command":  "npx",
+                                        "args":  [
+                                                     "-y",
+                                                     "mcp-onedrive"
+                                                 ],
+                                        "envKeys":  [
+                                                        "MS_CLIENT_ID",
+                                                        "MS_CLIENT_SECRET",
+                                                        "MS_TENANT_ID"
+                                                    ],
+                                        "logo":  "onedrive.png",
+                                        "category":  "Documents"
+                                    }
+                   }
+}

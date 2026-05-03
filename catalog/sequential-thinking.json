@@ -1,0 +1,15 @@
+{
+    "mcpServers":  {
+                       "sequential-thinking":  {
+                                                   "name":  "Sequential Thinking",
+                                                   "description":  "Structured chain-of-thought reasoning for complex problems.",
+                                                   "command":  "npx",
+                                                   "args":  [
+                                                                "-y",
+                                                                "@modelcontextprotocol/server-sequential-thinking"
+                                                            ],
+                                                   "logo":  "sequential-thinking.png",
+                                                   "category":  "Utilities"
+                                               }
+                   }
+}

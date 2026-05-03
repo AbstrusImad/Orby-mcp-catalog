@@ -1,0 +1,14 @@
+{
+    "mcpServers":  {
+                       "whatsapp":  {
+                                        "name":  "WhatsApp",
+                                        "description":  "Send and read WhatsApp messages via WhatsApp Web.",
+                                        "command":  "uvx",
+                                        "args":  [
+                                                     "whatsapp-mcp"
+                                                 ],
+                                        "logo":  "whatsapp.png",
+                                        "category":  "Communication"
+                                    }
+                   }
+}

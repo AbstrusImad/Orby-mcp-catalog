@@ -1,0 +1,20 @@
+{
+    "mcpServers":  {
+                       "spotify":  {
+                                       "name":  "Spotify",
+                                       "description":  "Control playback, search tracks and manage playlists on Spotify.",
+                                       "command":  "npx",
+                                       "args":  [
+                                                    "-y",
+                                                    "mcp-spotify"
+                                                ],
+                                       "envKeys":  [
+                                                       "SPOTIFY_CLIENT_ID",
+                                                       "SPOTIFY_CLIENT_SECRET",
+                                                       "SPOTIFY_REDIRECT_URI"
+                                                   ],
+                                       "logo":  "spotify.png",
+                                       "category":  "Audio \u0026 Voice"
+                                   }
+                   }
+}

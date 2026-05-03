@@ -1,0 +1,18 @@
+{
+    "mcpServers":  {
+                       "redis":  {
+                                     "name":  "Redis",
+                                     "description":  "Read, write and inspect Redis keys.",
+                                     "command":  "npx",
+                                     "args":  [
+                                                  "-y",
+                                                  "@modelcontextprotocol/server-redis"
+                                              ],
+                                     "envKeys":  [
+                                                     "REDIS_URL"
+                                                 ],
+                                     "logo":  "redis.png",
+                                     "category":  "Database"
+                                 }
+                   }
+}

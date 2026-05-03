@@ -1,0 +1,19 @@
+{
+    "mcpServers":  {
+                       "neo4j":  {
+                                     "name":  "Neo4j",
+                                     "description":  "Query Neo4j graph databases with Cypher.",
+                                     "command":  "uvx",
+                                     "args":  [
+                                                  "mcp-neo4j-cypher"
+                                              ],
+                                     "envKeys":  [
+                                                     "NEO4J_URL",
+                                                     "NEO4J_USERNAME",
+                                                     "NEO4J_PASSWORD"
+                                                 ],
+                                     "logo":  "neo4j.png",
+                                     "category":  "Database"
+                                 }
+                   }
+}

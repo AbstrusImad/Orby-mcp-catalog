@@ -1,0 +1,18 @@
+{
+    "mcpServers":  {
+                       "zapier":  {
+                                      "name":  "Zapier",
+                                      "description":  "Trigger Zapier zaps and manage automations across apps.",
+                                      "command":  "npx",
+                                      "args":  [
+                                                   "-y",
+                                                   "zapier-mcp"
+                                               ],
+                                      "envKeys":  [
+                                                      "ZAPIER_API_KEY"
+                                                  ],
+                                      "logo":  "zapier.png",
+                                      "category":  "Automation"
+                                  }
+                   }
+}

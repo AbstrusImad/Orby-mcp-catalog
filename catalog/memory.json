@@ -1,0 +1,15 @@
+{
+    "mcpServers":  {
+                       "memory":  {
+                                      "name":  "Memory",
+                                      "description":  "Persistent key-value memory across conversations.",
+                                      "command":  "npx",
+                                      "args":  [
+                                                   "-y",
+                                                   "@modelcontextprotocol/server-memory"
+                                               ],
+                                      "logo":  "memory.png",
+                                      "category":  "Utilities"
+                                  }
+                   }
+}

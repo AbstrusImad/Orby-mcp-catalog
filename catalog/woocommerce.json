@@ -1,0 +1,20 @@
+{
+    "mcpServers":  {
+                       "woocommerce":  {
+                                           "name":  "WooCommerce",
+                                           "description":  "Manage products, orders and customers on WooCommerce.",
+                                           "command":  "npx",
+                                           "args":  [
+                                                        "-y",
+                                                        "mcp-server-woocommerce"
+                                                    ],
+                                           "envKeys":  [
+                                                           "WC_URL",
+                                                           "WC_CONSUMER_KEY",
+                                                           "WC_CONSUMER_SECRET"
+                                                       ],
+                                           "logo":  "woocommerce.png",
+                                           "category":  "E-Commerce"
+                                       }
+                   }
+}

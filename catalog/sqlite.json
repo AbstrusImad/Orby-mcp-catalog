@@ -1,0 +1,15 @@
+{
+    "mcpServers":  {
+                       "sqlite":  {
+                                      "name":  "SQLite",
+                                      "description":  "Query a local SQLite database file.",
+                                      "command":  "uvx",
+                                      "args":  [
+                                                   "mcp-server-sqlite"
+                                               ],
+                                      "needsPath":  true,
+                                      "logo":  "sqlite.png",
+                                      "category":  "Database"
+                                  }
+                   }
+}
