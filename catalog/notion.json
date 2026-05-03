@@ -9,7 +9,7 @@
                                                    "@notionhq/notion-mcp-server"
                                                ],
                                       "envKeys":  [
-                                                      "NOTION_API_KEY"
+                                                      "NOTION_TOKEN"
                                                   ],
                                       "logo":  "notion.png",
                                       "category":  "Productivity"
