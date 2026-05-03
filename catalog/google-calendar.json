@@ -1,0 +1,15 @@
+{
+    "mcpServers":  {
+                       "google-calendar":  {
+                                               "name":  "Google Calendar",
+                                               "description":  "Read and create events across your Google calendars.",
+                                               "command":  "npx",
+                                               "args":  [
+                                                            "-y",
+                                                            "@cocal/google-calendar-mcp"
+                                                        ],
+                                               "logo":  "google-calendar.png",
+                                               "category":  "Calendar"
+                                           }
+                   }
+}

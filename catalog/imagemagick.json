@@ -1,0 +1,14 @@
+{
+    "mcpServers":  {
+                       "imagemagick":  {
+                                           "name":  "ImageMagick",
+                                           "description":  "Resize, convert and transform images with ImageMagick.",
+                                           "command":  "uvx",
+                                           "args":  [
+                                                        "imagemagick-mcp"
+                                                    ],
+                                           "logo":  "imagemagick.png",
+                                           "category":  "Design"
+                                       }
+                   }
+}

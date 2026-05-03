@@ -1,0 +1,19 @@
+{
+    "mcpServers":  {
+                       "google-analytics":  {
+                                                "name":  "Google Analytics",
+                                                "description":  "Query traffic, events and user metrics from Google Analytics.",
+                                                "command":  "npx",
+                                                "args":  [
+                                                             "-y",
+                                                             "google-analytics-mcp"
+                                                         ],
+                                                "envKeys":  [
+                                                                "GA_CREDENTIALS_PATH",
+                                                                "GA_PROPERTY_ID"
+                                                            ],
+                                                "logo":  "google-analytics.png",
+                                                "category":  "Analytics"
+                                            }
+                   }
+}

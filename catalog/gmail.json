@@ -1,0 +1,15 @@
+{
+    "mcpServers":  {
+                       "gmail":  {
+                                     "name":  "Gmail",
+                                     "description":  "Read, send and organize Gmail messages and drafts.",
+                                     "command":  "npx",
+                                     "args":  [
+                                                  "-y",
+                                                  "@gongrzhe/server-gmail-autoauth-mcp"
+                                              ],
+                                     "logo":  "gmail.png",
+                                     "category":  "Communication"
+                                 }
+                   }
+}

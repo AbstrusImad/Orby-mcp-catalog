@@ -1,0 +1,14 @@
+{
+    "mcpServers":  {
+                       "imessage":  {
+                                        "name":  "iMessage",
+                                        "description":  "Read and send iMessages on macOS via the chat.db database.",
+                                        "command":  "uvx",
+                                        "args":  [
+                                                     "imessage-mcp"
+                                                 ],
+                                        "logo":  "imessage.png",
+                                        "category":  "Communication"
+                                    }
+                   }
+}

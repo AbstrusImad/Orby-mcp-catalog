@@ -1,0 +1,15 @@
+{
+    "mcpServers":  {
+                       "git":  {
+                                   "name":  "Git",
+                                   "description":  "Clone, commit, diff, blame and browse git repos.",
+                                   "command":  "uvx",
+                                   "args":  [
+                                                "mcp-server-git"
+                                            ],
+                                   "needsPath":  true,
+                                   "logo":  "git.png",
+                                   "category":  "Files \u0026 System"
+                               }
+                   }
+}

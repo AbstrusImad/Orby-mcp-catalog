@@ -1,0 +1,18 @@
+{
+    "mcpServers":  {
+                       "linear":  {
+                                      "name":  "Linear",
+                                      "description":  "Create, read and update Linear issues and projects.",
+                                      "command":  "npx",
+                                      "args":  [
+                                                   "-y",
+                                                   "mcp-linear"
+                                               ],
+                                      "envKeys":  [
+                                                      "LINEAR_API_KEY"
+                                                  ],
+                                      "logo":  "linear.png",
+                                      "category":  "Developer"
+                                  }
+                   }
+}

@@ -1,0 +1,18 @@
+{
+    "mcpServers":  {
+                       "heroku":  {
+                                      "name":  "Heroku",
+                                      "description":  "Manage Heroku apps, dynos and addons.",
+                                      "command":  "npx",
+                                      "args":  [
+                                                   "-y",
+                                                   "heroku-mcp"
+                                               ],
+                                      "envKeys":  [
+                                                      "HEROKU_API_KEY"
+                                                  ],
+                                      "logo":  "heroku.png",
+                                      "category":  "Cloud \u0026 DevOps"
+                                  }
+                   }
+}

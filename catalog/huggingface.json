@@ -1,0 +1,18 @@
+{
+    "mcpServers":  {
+                       "huggingface":  {
+                                           "name":  "Hugging Face",
+                                           "description":  "Browse models, datasets and run inference on Hugging Face.",
+                                           "command":  "npx",
+                                           "args":  [
+                                                        "-y",
+                                                        "huggingface-mcp"
+                                                    ],
+                                           "envKeys":  [
+                                                           "HF_API_KEY"
+                                                       ],
+                                           "logo":  "huggingface.png",
+                                           "category":  "AI \u0026 Models"
+                                       }
+                   }
+}

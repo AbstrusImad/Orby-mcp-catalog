@@ -1,0 +1,15 @@
+{
+    "mcpServers":  {
+                       "google-drive":  {
+                                            "name":  "Google Drive",
+                                            "description":  "Browse, read and search files in Google Drive.",
+                                            "command":  "npx",
+                                            "args":  [
+                                                         "-y",
+                                                         "@modelcontextprotocol/server-gdrive"
+                                                     ],
+                                            "logo":  "google-drive.png",
+                                            "category":  "Documents"
+                                        }
+                   }
+}

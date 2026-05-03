@@ -1,0 +1,19 @@
+{
+    "mcpServers":  {
+                       "jira":  {
+                                    "name":  "Jira",
+                                    "description":  "Manage Jira tickets, projects and workflows.",
+                                    "command":  "uvx",
+                                    "args":  [
+                                                 "mcp-atlassian"
+                                             ],
+                                    "envKeys":  [
+                                                    "JIRA_URL",
+                                                    "JIRA_USERNAME",
+                                                    "JIRA_API_TOKEN"
+                                                ],
+                                    "logo":  "jira.png",
+                                    "category":  "Developer"
+                                }
+                   }
+}

@@ -1,0 +1,15 @@
+{
+    "mcpServers":  {
+                       "kubernetes":  {
+                                          "name":  "Kubernetes",
+                                          "description":  "Inspect pods, deployments and services in your clusters.",
+                                          "command":  "npx",
+                                          "args":  [
+                                                       "-y",
+                                                       "mcp-server-kubernetes"
+                                                   ],
+                                          "logo":  "kubernetes.png",
+                                          "category":  "Developer"
+                                      }
+                   }
+}

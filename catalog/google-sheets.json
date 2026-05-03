@@ -1,0 +1,15 @@
+{
+    "mcpServers":  {
+                       "google-sheets":  {
+                                             "name":  "Google Sheets",
+                                             "description":  "Read, write and format cells in Google Sheets.",
+                                             "command":  "npx",
+                                             "args":  [
+                                                          "-y",
+                                                          "google-sheets-mcp"
+                                                      ],
+                                             "logo":  "google-sheets.png",
+                                             "category":  "Utilities"
+                                         }
+                   }
+}

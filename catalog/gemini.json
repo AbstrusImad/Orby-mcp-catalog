@@ -1,0 +1,18 @@
+{
+    "mcpServers":  {
+                       "gemini":  {
+                                      "name":  "Gemini",
+                                      "description":  "Proxy to Google Gemini models as sub-agent tools.",
+                                      "command":  "npx",
+                                      "args":  [
+                                                   "-y",
+                                                   "gemini-mcp"
+                                               ],
+                                      "envKeys":  [
+                                                      "GOOGLE_API_KEY"
+                                                  ],
+                                      "logo":  "gemini.png",
+                                      "category":  "AI \u0026 Models"
+                                  }
+                   }
+}

@@ -1,0 +1,17 @@
+{
+    "mcpServers":  {
+                       "kagi":  {
+                                    "name":  "Kagi",
+                                    "description":  "Premium ad-free web search with summarizer.",
+                                    "command":  "uvx",
+                                    "args":  [
+                                                 "kagi-mcp"
+                                             ],
+                                    "envKeys":  [
+                                                    "KAGI_API_KEY"
+                                                ],
+                                    "logo":  "kagi.png",
+                                    "category":  "Search"
+                                }
+                   }
+}

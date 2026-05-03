@@ -1,0 +1,14 @@
+{
+    "mcpServers":  {
+                       "ffmpeg":  {
+                                      "name":  "FFmpeg",
+                                      "description":  "Convert, trim and transcode audio/video with FFmpeg.",
+                                      "command":  "uvx",
+                                      "args":  [
+                                                   "ffmpeg-mcp"
+                                               ],
+                                      "logo":  "ffmpeg.png",
+                                      "category":  "Design"
+                                  }
+                   }
+}

@@ -1,0 +1,18 @@
+{
+    "mcpServers":  {
+                       "logseq":  {
+                                      "name":  "Logseq",
+                                      "description":  "Query and write blocks in your Logseq graph.",
+                                      "command":  "uvx",
+                                      "args":  [
+                                                   "mcp-server-logseq"
+                                               ],
+                                      "envKeys":  [
+                                                      "LOGSEQ_API_TOKEN",
+                                                      "LOGSEQ_API_URL"
+                                                  ],
+                                      "logo":  "logseq.png",
+                                      "category":  "Productivity"
+                                  }
+                   }
+}

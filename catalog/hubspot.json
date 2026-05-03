@@ -1,0 +1,18 @@
+{
+    "mcpServers":  {
+                       "hubspot":  {
+                                       "name":  "HubSpot",
+                                       "description":  "Manage contacts, deals and pipelines in HubSpot CRM.",
+                                       "command":  "npx",
+                                       "args":  [
+                                                    "-y",
+                                                    "hubspot-mcp"
+                                                ],
+                                       "envKeys":  [
+                                                       "HUBSPOT_ACCESS_TOKEN"
+                                                   ],
+                                       "logo":  "hubspot.png",
+                                       "category":  "CRM \u0026 Email"
+                                   }
+                   }
+}
