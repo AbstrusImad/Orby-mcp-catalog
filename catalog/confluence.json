@@ -1,0 +1,19 @@
+﻿{
+    "mcpServers":  {
+                       "confluence":  {
+                                          "name":  "Confluence",
+                                          "description":  "Search and read Confluence pages and spaces.",
+                                          "command":  "uvx",
+                                          "args":  [
+                                                       "mcp-atlassian"
+                                                   ],
+                                          "envKeys":  [
+                                                          "CONFLUENCE_URL",
+                                                          "CONFLUENCE_USERNAME",
+                                                          "CONFLUENCE_API_TOKEN"
+                                                      ],
+                                          "logo":  "confluence.png",
+                                          "category":  "Developer"
+                                      }
+                   }
+}

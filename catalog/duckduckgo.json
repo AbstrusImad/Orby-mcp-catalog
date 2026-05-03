@@ -1,0 +1,14 @@
+﻿{
+    "mcpServers":  {
+                       "duckduckgo":  {
+                                          "name":  "DuckDuckGo",
+                                          "description":  "Privacy-friendly web search without an API key.",
+                                          "command":  "uvx",
+                                          "args":  [
+                                                       "duckduckgo-mcp-server"
+                                                   ],
+                                          "logo":  "duckduckgo.png",
+                                          "category":  "Search"
+                                      }
+                   }
+}

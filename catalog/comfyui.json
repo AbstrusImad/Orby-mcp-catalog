@@ -1,0 +1,17 @@
+﻿{
+    "mcpServers":  {
+                       "comfyui":  {
+                                       "name":  "ComfyUI",
+                                       "description":  "Run ComfyUI workflows for advanced image generation pipelines.",
+                                       "command":  "uvx",
+                                       "args":  [
+                                                    "comfyui-mcp"
+                                                ],
+                                       "envKeys":  [
+                                                       "COMFYUI_API_URL"
+                                                   ],
+                                       "logo":  "comfyui.png",
+                                       "category":  "AI \u0026 Models"
+                                   }
+                   }
+}

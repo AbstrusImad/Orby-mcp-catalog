@@ -1,0 +1,19 @@
+﻿{
+    "mcpServers":  {
+                       "clickhouse":  {
+                                          "name":  "ClickHouse",
+                                          "description":  "Query ClickHouse columnar warehouses.",
+                                          "command":  "uvx",
+                                          "args":  [
+                                                       "mcp-clickhouse"
+                                                   ],
+                                          "envKeys":  [
+                                                          "CLICKHOUSE_HOST",
+                                                          "CLICKHOUSE_USER",
+                                                          "CLICKHOUSE_PASSWORD"
+                                                      ],
+                                          "logo":  "clickhouse.png",
+                                          "category":  "Database"
+                                      }
+                   }
+}

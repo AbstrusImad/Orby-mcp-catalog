@@ -1,0 +1,19 @@
+﻿{
+    "mcpServers":  {
+                       "browserbase":  {
+                                           "name":  "Browserbase",
+                                           "description":  "Cloud browser with persistent sessions and stealth.",
+                                           "command":  "npx",
+                                           "args":  [
+                                                        "-y",
+                                                        "@browserbasehq/mcp-server-browserbase"
+                                                    ],
+                                           "envKeys":  [
+                                                           "BROWSERBASE_API_KEY",
+                                                           "BROWSERBASE_PROJECT_ID"
+                                                       ],
+                                           "logo":  "browserbase.png",
+                                           "category":  "Browser"
+                                       }
+                   }
+}

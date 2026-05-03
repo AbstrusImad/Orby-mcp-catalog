@@ -1,0 +1,19 @@
+﻿{
+    "mcpServers":  {
+                       "box":  {
+                                   "name":  "Box",
+                                   "description":  "Browse and read documents stored in Box.",
+                                   "command":  "npx",
+                                   "args":  [
+                                                "-y",
+                                                "mcp-box"
+                                            ],
+                                   "envKeys":  [
+                                                   "BOX_CLIENT_ID",
+                                                   "BOX_CLIENT_SECRET"
+                                               ],
+                                   "logo":  "box.png",
+                                   "category":  "Documents"
+                               }
+                   }
+}
